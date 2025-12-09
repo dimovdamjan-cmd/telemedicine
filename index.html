@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+<meta charset="UTF-8">
+<title>TeleDoctor Demo - Пациент</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>TeleDoctor Demo — Пациент</h1>
+
+<label>Доктор:</label>
+<select id="doctor">
+  <option>др. Марија Петровска</option>
+  <option>др. Александар Иванов</option>
+  <option>др. Соња Стојкова</option>
+</select>
+
+<label>Име и презиме:</label>
+<input id="patient" placeholder="Вашето име">
+
+<label>Телефон:</label>
+<input id="phone" placeholder="+3897...">
+
+<label>Термин:</label>
+<input id="time" type="datetime-local">
+
+<button id="bookBtn">Закажи</button>
+<p id="msg"></p>
+
+<hr>
+<a href="video.html?role=patient" class="btn">Влез во видео преглед</a>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body { font-family: Arial; padding: 20px; background: #f4f4f8; }
+h1 { color: #0b71ea; }
+input, select { padding: 8px; margin: 4px 0; width: 260px; }
+table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+td, th { border: 1px solid #ddd; padding: 8px; }
+.video-container { display: flex; gap: 10px; margin-top: 20px; }
+video { width: 45%; background: #000; border-radius: 10px; }
+.btn { display: inline-block; padding: 10px 14px; background: #0b71ea; color: #fff; text-decoration: none; border-radius: 6px; }
+#chatLog { border: 1px solid #ccc; padding: 10px; height: 150px; overflow-y: auto; margin-top: 10px; }
